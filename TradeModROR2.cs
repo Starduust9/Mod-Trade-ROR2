@@ -40,7 +40,7 @@ public class TradingMod : BaseUnityPlugin
         tradingTable = new GameObject("TradingTable");
 
         // Ajouter des modèles de table et de chaises
-        GameObject tableModel = Instantiate(Resources.Load<GameObject>("Path/To/TableModel"));
+        GameObject tableModel = Instantiate(Resources.Load<GameObject>("ROR2_Mod/Assets/AssetsBundles/Mytablebundle"));
         tableModel.transform.SetParent(tradingTable.transform);
         
         GameObject chair1 = Instantiate(Resources.Load<GameObject>("Path/To/ChairModel"));
@@ -52,7 +52,7 @@ public class TradingMod : BaseUnityPlugin
         chair2.transform.localPosition = new Vector3(-1, 0, 0); // Position relative à la table
 
         // Positionner la table et les chaises dans la boutique
-        tradingTable.transform.position = new Vector3(0, 0, 0); // Positionner selon vos besoins
+        tradingTable.transform.position = new Vector3(-101.0587, -23.91406, -41.85825); // Positionner selon vos besoins
 
         // Ajouter des composants d'interaction
         tradingTable.AddComponent<TradingInteraction>().Setup(this);
