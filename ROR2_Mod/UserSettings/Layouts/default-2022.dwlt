@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 112
+  controlID: 43
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Editor
+    - Assets/AssetBundles
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Editor
+  - Assets/AssetBundles
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\cabre\OneDrive\Bureau\Mod Trade ROR2\ROR2 Mod
+  m_LastProjectPath: C:\Users\cabre\OneDrive\Bureau\Mod Trade ROR2\Mod-Trade-ROR2\ROR2_Mod
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: bc5a0000
-    m_LastClickedID: 23228
-    m_ExpandedIDs: 00000000705a0000b85a000000ca9a3bffffff7f
+    m_SelectedIDs: ce5a0000
+    m_LastClickedID: 23246
+    m_ExpandedIDs: 000000007a5a00007c5a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000705a0000
+    m_ExpandedIDs: 000000007a5a00007c5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 1e5b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 24fbffff
+      m_ExpandedIDs: 30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0.33114037, y: -0.31839928, z: -2.6072917}
     speed: 2
-    m_Value: {x: 0.40000004, y: 0.38940442, z: 0}
+    m_Value: {x: 0.33114037, y: -0.31839928, z: -2.6072917}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -912,11 +912,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.0024544448, y: 0.9890073, z: -0.14675333, w: 0.016620975}
     speed: 2
-    m_Value: {x: 0.05970914, y: 0.9350614, z: -0.19082455, w: 0.2926373}
+    m_Value: {x: 0.0024544445, y: 0.98900723, z: -0.14675333, w: 0.016620975}
   m_Size:
     m_Target: 2.9548578
     speed: 2
-    m_Value: 0.7109819
+    m_Value: 2.9548578
   m_Ortho:
     m_Target: 0
     speed: 2
